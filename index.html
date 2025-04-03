@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .box {
+      height: 748px;
+      width: 748px;
+      position: relative;
+      left: 25%;
+      top: 30px;
+    
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 9px;
+      background-color: black;
+    }
+    #main1{
+      background-color: red;
+     height: 414px;
+     width: 320px;
+    
+    }
+    #main2{
+      background-color: antiquewhite;
+      grid-column: span 3;
+      grid-column-start: 2;
+      grid-column-end: 5;
+    
+      
+     
+    }
+    #main3{
+      background-color: antiquewhite;
+    }
+    #main4{
+      background-color: antiquewhite;
+    
+    }
+    #main5{
+      background-color: antiquewhite;
+      grid-column-start: 1;
+grid-column-end: 2;
+ grid-row-start: 2;
+ grid-row-end: 3;
+     height: 295px;
+    }
+    #main6{
+      background-color: orange;
+      grid-column-start: 2;
+grid-column-end: 4;
+ grid-row-start: 2;
+ grid-row-end: 3;
+      
+    
+      
+    }
+    #main7{
+      background-color: antiquewhite;
+    }
+    #main8{
+background-color: blue;
+grid-column-start: 4;
+grid-column-end: 5;
+ grid-row-start: 2;
+ grid-row-end: 3;
+ height: 130px;
+ width: 50px;
+    }
+      
+    #main9{
+      background-color: antiquewhite;
+      grid-column-start: 1;
+grid-column-end: 2;
+ grid-row-start: 3;
+ grid-row-end: 4;
+ height: 20px;
+    width: 320px; 
+    }
+    #main10{
+      background-color: yellow;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      height: 20px;
+     width:198px;
+    }
+    #main11{
+      background-color:lightblue;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 3;
+      grid-column-end: 4;
+     height: 20px;
+     width:153px;
+    }
+    #main12{
+      background-color: antiquewhite;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 4;
+      grid-column-end: 5;
+     height: 174px;
+     width: 50px;
+     position: relative;
+     bottom: 90%;
+    }
+  
+  
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div id="main1"></div>
+    <div id="main2"></div>
+    <div id="main3"></div>
+    <div id="main4"></div>
+    <div id="main5"></div>
+    <div id="main6"></div>
+    <div id="main7"></div>
+    <div id="main8"></div>
+    <div id="main9"></div>
+    <div id="main10"></div>
+    <div id="main11"></div>
+    <div id="main12"></div>
+
+  </div>
+</body>
+
+</html>
